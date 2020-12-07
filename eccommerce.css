@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none ;
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555555;
+    
+}
+p{
+    color: #555555;
+
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-height: 100%;
+    padding: 50px 80px;
+    height: 800px;
+   
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    
+
+
+}
+.btn{
+    display: inline-block;
+    background-color: #ee6c4d;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+
+}
+.btn:hover{
+    background: #bcb8b1;
+}
+.header{
+    background: radial-gradient(#e0fbfc,#98c1d9);
+}
+.categories{
+    margin: 70px 0px;
+
+}
+.col-3 img{
+    background: #dee2e6;
+    padding: 0px 80px;
+    padding-top: 40px;
+    padding-right: 25px;
+    
+}
+.smallContainer{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    background-color: #dee2e6;
+    width: 100%;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555555;
+}
+.title::after{
+    content: '';
+    background: #3d5a80;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.rating .fa{
+    color: #3d5a80;
+
+}
+.offer{
+    background: radial-gradient(#e0fbfc,#98c1d9);
+    margin: 80px;
+    padding: 30px 0;
+
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+.offer .offer-img{
+
+    height: 300px;
+    width:500px
+}
+small{
+    color: #555;
+}
+/*------------ testimonial----------------------*/
+.testimonial{
+    padding-top: 100px;
+
+}
+.testimonial .col-4{
+    text-align: center;
+    padding: 40px 20px;
+}
+.user-img{
+    height: 250px;
+    width: 250px;
+}
